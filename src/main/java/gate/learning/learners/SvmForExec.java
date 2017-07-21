@@ -56,7 +56,7 @@ public class SvmForExec extends SupervisedLearner{
   }
 
   /** Get the parameters from the command line.
-   * @throws  */
+    */
   public void getParametersFromCommmand() {
 
     System.out.println("commandline=*"+commandLine+"*");

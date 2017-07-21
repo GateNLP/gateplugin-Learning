@@ -56,7 +56,6 @@ public class Paum extends SupervisedLearner {
   /** PAUM learning and obtain a Percptron model in primal form, read training data from a file,
    * and save the model into another files, and another parameter
    * for the number of training documents.
-   * @throws IOException 
    */ 
   public void training(BufferedWriter modelFile, 
           SparseFeatureVector [] dataLearning, int totalNumFeatures, short [] classLabels, int numTraining) {
